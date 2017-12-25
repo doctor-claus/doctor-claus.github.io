@@ -1,0 +1,124 @@
+body{
+	background-image: url("http://wallpaperswide.com/download/serene_sky-wallpaper-1366x768.jpg");
+	color: white;
+	background-size: cover;
+}
+#header{
+	margin: 15% auto auto auto;
+	position: relative;
+	height: auto;
+}
+.ui{
+	margin-top: 25px;
+	position: relative;
+}
+.weather{
+	width: auto;
+	height: auto;
+	position: relative;
+	border-radius: 10px;
+	left: 520px;
+	display: table;
+	position: relative;
+	margin-top: 100px;
+	opacity: 1;
+	color: black;
+
+}
+.text-center{
+	position: relative;
+	height: auto;
+	width: auto;
+
+}
+#remove{
+	position: relative;
+	left: 250px;
+	cursor: pointer;
+}
+p{
+	font-weight:bold;
+}
+#error{
+	position: relative;
+	color: red;
+}
+.search.icon{
+	cursor: pointer;
+}
+#city{
+	width: 500px;
+	background: transparent;
+	color: white;
+}
+#wicon{
+	position: relative;
+	left: 180px;
+	bottom: 100px;
+	top: 70px;
+}
+#name{
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 200%;
+	width: auto;
+}
+#temp h1{
+	margin-bottom: -150px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 100;
+	font-size: 300%;
+	position: relative;
+}
+#description{
+	padding-left: 150px;
+	font-size: 200%;
+	position: relative;
+	bottom: 70px;
+	right: 10px;
+	padding-top: 10px;
+	position: relative;
+	left: 80px;
+	margin-top: 50px;
+}
+#humidity{
+	width: 50px;
+	bottom: 100px;
+	margin-top: -200px;
+	opacity: 0;
+}
+#hdata{
+	position: relative;
+	bottom: 95px;
+}
+#country{
+	position: relative;
+	bottom: 90px;
+	font-size: 0.7em;
+}
+#visibility{
+	position: relative;
+	width: 50px;
+	margin-top: -250px;
+	left: 100px;
+	bottom: 40px;
+	opacity: 0;
+
+}
+#vis{
+	position: relative;
+	bottom: 163px;
+	left: 110px;
+}
+#windicon{
+	width: 50px;
+	position: relative;
+	bottom: 190px;
+	opacity: 0;
+}
+#wind{
+	position: relative;
+	bottom: 190px;
+}
+
+

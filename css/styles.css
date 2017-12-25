@@ -1,0 +1,141 @@
+.jumbotron{
+	opacity: 0.8;
+	color: black;
+	font-family: Righteous;
+	padding-bottom: 2px;
+}
+.navbar-pos-1{
+	background: transparent;
+	border: none;
+	transition: all ease .5s
+}
+.fa{
+	color: maroon;
+}
+.container{
+  width: 100%;
+}
+.info1{
+  float: right;
+}
+.info2{
+  float: left;
+}
+@media only screen and (max-width: 400px){
+  .info1{
+    padding-right: 20px;
+  }
+  .info2{
+    padding-left: 80px;
+  }
+}
+
+.col-md-8>p{
+	font-family: BenchNine;
+	color: maroon;
+}
+img{
+	float: bottom;
+}
+body{
+  width: 100%;
+}
+.navbar-inverse .navbar-toggle .icon-bar{
+	background-color: maroon;
+}
+.col-md-4>p{
+	font-family: Economica;
+}
+.fa:hover{
+	text-shadow: 0px 0px 5px maroon;
+}
+#text1:hover{
+	text-shadow: 0px 0px 2px maroon;
+}
+#text2:hover{
+	text-shadow: 0px 0px 2px maroon;
+}
+#text3:hover{
+	text-shadow: 0px 0px 2px maroon;
+}
+i{
+	padding-right: 50px;
+}
+.col-md-6{
+	margin-top: 20px;
+}
+.navbar-pos-2{
+	height: 50px;
+	background: white;
+	border: none;
+	box-shadow: 0px 0px 10px;
+	transition: all ease .5s
+}
+.thumbnail{
+	box-shadow: 0px 0px 10px;
+	width: 300px;
+}
+#r1{
+  text-align: center;
+}
+#r2{
+  text-align: center;
+}
+@-webkit-keyframes hvr-ripple-out {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+@keyframes hvr-ripple-out {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+.hvr-ripple-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+}
+.hvr-ripple-out:before {
+  content: '';
+  position: absolute;
+  border: #e1e1e1 solid 6px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.hvr-ripple-out:hover:before, .hvr-ripple-out:focus:before, .hvr-ripple-out:active:before {
+  -webkit-animation-name: hvr-ripple-out;
+  animation-name: hvr-ripple-out;
+}
+.skills{
+  margin-top: 50px;
+}
+.tech{
+  margin-top: 50px;
+}
+.redux, .d3, .express{
+  height: 256px !important;
+  width: 256px !important;  
+}
+
+
+
+
+
+	
+	
